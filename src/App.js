@@ -1,8 +1,9 @@
+import Navbar from "./components/Navbar";
 import "./index.css"
 function App() {
   return (
-    <div className="text-9xl">
-     hlll
+    <div className="flex">
+      <Navbar />
     </div>
   );
 }
